@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/fan/cxl/DeathStarBench/socialNetwork/wrk2/scripts/social-network'
+let g:netrw_dirhist_6='/home/fan/cxl/ycsb/YCSB/redis/src/main/java/site/ycsb/db'
+let g:netrw_dirhist_5='/home/fan/cxl/tools-and-scripts'
+let g:netrw_dirhist_4='/home/fan/.config/nvim/init.vim'
+let g:netrw_dirhist_3='/home/fan/vimwiki/src'
+let g:netrw_dirhist_2='/home/fan/Downloads'
+let g:netrw_dirhist_1='/home/fan/cxl/qemu'
