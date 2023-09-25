@@ -23,6 +23,8 @@ Plugin 'vim-latex'
 Plugin 'vim-gitgutter'
 Plugin 'vim-autoclose'
 Plugin 'vim-g'
+Plugin 'mileszs/ack.vim'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -119,9 +121,9 @@ nmap e/ $a //<esc>a<space>
 nmap c* ^a/*  */<esc>hh==ll
 nmap c/ ^a//<esc>a<space><esc>==ll
 
-set list
+"set list
 set listchars=tab:\|-,space:.
-set list
+"set list
 set expandtab
 nmap <F3> <esc>:set list!<return>
 "colorscheme darkblue
