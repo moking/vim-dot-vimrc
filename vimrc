@@ -24,6 +24,8 @@ Plugin 'vim-gitgutter'
 Plugin 'vim-autoclose'
 Plugin 'vim-g'
 Plugin 'mileszs/ack.vim'
+Plugin 'conque-term-vim'
+Plugin 'vim-helm'
 
 
 " All of your Plugins must be added before the following line
@@ -89,7 +91,7 @@ let g:vimwiki_custom_wiki2html='~/.vim/bundle/vimwiki/autoload/vimwiki/customwik
 
 imap sx <esc>:w<return>
 
-set number 
+"set number 
 set textwidth=0
 set wrapmargin=0
 set wrap
@@ -114,7 +116,7 @@ let g:tex_flavor='latex'
 "set paste               " Paste from a windows or from vim
 "set go+=a               " Visual selection automatically copied to the clipboard
 nmap <f2> <esc>:w<return>
-imap <f2> <esc>:w<return>
+imap <f2> <right><esc>:w<return>
 nmap e* $a /*  */<esc>hh
 nmap e/ $a //<esc>a<space>
 
@@ -128,7 +130,7 @@ set expandtab
 nmap <F3> <esc>:set list!<return>
 "colorscheme darkblue
 "colorscheme materialbox
-colorscheme lightning
+colorscheme evening
 nmap <F1> <esc>:q<cr>
 nmap q :q<cr>
 nmap <F4> <esc>:set expandtab!<return>
@@ -142,3 +144,10 @@ highlight GitGutterChange guifg=#bbbb00 ctermfg=3
 highlight GitGutterDelete guifg=#ff2222 ctermfg=1
 
 nmap <F5> <esc>:GitGutterQuickFix \| copen <return>
+tnoremap <Esc> <C-\><C-n>
+
+"set editor='vim + -c "set textwidth=72" -c "set wrap" -c "set nocp" -c "?^$"'
+"set pager="vim -R"
+"bind editor <Tab> complete-query
+"
+nmap ; <esc>:
