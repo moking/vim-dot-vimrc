@@ -1,0 +1,1 @@
+gitdiff.vba: call delete('/home/fan/.vim/plugin/gitdiff.vim')
